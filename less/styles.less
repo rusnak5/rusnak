@@ -2,11 +2,31 @@
 ---------------General---------------
 -----------------------------------*/
 
+//@font-face {
+//	font-family: 'Microsoft YaHei';
+//	src: url('/font/MicrosoftYaHei.woff2') format('woff2');
+//	font-weight: normal;
+//	font-style: normal;
+//}
+//
+//@font-face {
+//	font-family: 'Microsoft YaHei';
+//	src: url('/font/MicrosoftYaHeiLight.woff2') format('woff2');
+//	font-weight: 300;
+//	font-style: normal;
+//}
+//
+//@font-face {
+//	font-family: 'Microsoft YaHei';
+//	src: url('/font/MicrosoftYaHeiBold.woff2') format('woff2');
+//	font-weight: bold;
+//	font-style: normal;
+//}
+
 body {
 	margin: 0;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
-	min-height: 2000px;
+	//font-family: 'Roboto', sans-serif;
+	font-family: 'Microsoft YaHei', sans-serif;
 }
 
 .wrapper {
@@ -15,45 +35,74 @@ body {
 	margin: 0 auto;
 }
 
-.title {
-	font-size: 33px;
-	font-weight: 400;
-	text-transform: uppercase;
-	text-align: center;
-	margin: 0;
-	position: relative;
+//.title {
+//	font-size: 33px;
+//	text-transform: uppercase;
+//	text-align: center;
+//	margin: 0;
+//	cursor: default;
+//	position: relative;
+//
+//	&:before {
+//		position: absolute;
+//		top: 54px;
+//		left: 50%;
+//		transform: translate(-50%, 0);
+//		content: '';
+//		width: 124px;
+//		height: 22px;
+//		border-left: 3px solid #00c1b9;
+//		border-bottom: 3px solid #00c1b9;
+//		border-right: 3px solid #00c1b9;
+//		border-bottom-left-radius: 3px;
+//		border-bottom-right-radius: 3px;
+//	}
+//}
+
+//.btn {
+//	display: block;
+//	width: 50px;
+//	height: 50px;
+//	position: absolute;
+//	left: 50%;
+//	bottom: 20px;
+//	transform: translate(-50%, 0) rotate(45deg);
+//	border-bottom: 3px solid #af0101;
+//	border-right: 3px solid #af0101;
+//	cursor: pointer;
+//	transition: .3s;
+//
+//	&:hover {
+//		transform: translate(-50%, 0) rotate(45deg) scale(1.1);
+//	}
+//}
+
+.btn {
+	position: absolute;
+	content: '';
+	bottom: -122px;
+	left: 50%;
+	width: 86px;
+	height: 86px;
+	background: #ecedef;
+	transform: rotate(45deg) translate(-100%, -31%);
+	border-top-left-radius: 50%;
+	cursor: pointer;
+
+	&:hover:before {
+		transform: scale(1.1);
+	}
 
 	&:before {
 		position: absolute;
-		top: 54px;
-		left: 50%;
-		transform: translate(-50%, 0);
 		content: '';
-		width: 124px;
-		height: 22px;
-		border-left: 3px solid #00c1b9;
-		border-bottom: 3px solid #00c1b9;
-		border-right: 3px solid #00c1b9;
-		border-bottom-left-radius: 3px;
-		border-bottom-right-radius: 3px;
-	}
-}
-
-.btn {
-	display: block;
-	width: 50px;
-	height: 50px;
-	position: absolute;
-	left: 50%;
-	bottom: 20px;
-	transform: translate(-50%, 0) rotate(45deg);
-	border-bottom: 3px solid #af0101;
-	border-right: 3px solid #af0101;
-	cursor: pointer;
-	transition: .3s;
-
-	&:hover {
-		transform: translate(-50%, 0) rotate(45deg) scale(1.1);
+		top: 12px;
+		left: 12px;
+		width: 26px;
+		height: 26px;
+		border-right: 2px solid #000000;
+		border-bottom: 2px solid #000000;
+		transition: .3s;
 	}
 }
 
@@ -62,9 +111,10 @@ body {
 ----------------------------------*/
 
 .header {
+	position: relative;
 	height: 100vh;
+	overflow: hidden;
 	//position: relative;
-	font-weight: 900;
 
 	//&:before {
 	//	position: absolute;
@@ -85,44 +135,59 @@ body {
 		background-image: url(../img/bg.png);
 		background-repeat: no-repeat;
 		background-size: 100% 75%;
-		background-position: 0 bottom;
+		background-position: -7px bottom;
+		//border: 1px solid red;
 	}
 
 	&__title {
 		position: absolute;
 		top: 50%;
-		left: 15px;
+		left: 16px;
 		transform: translate(0, -50%);
 		color: #af0101;
-		font-size: 70px;
+		font-size: 60px;
+		letter-spacing: 0.01em;
 		margin: 0;
 		display: inline-block;
-		border-left: 5px solid #af0101;
+		//border-left: 5px solid #af0101;
 		//border-right: 5px solid #af0101;
 		padding: 0 25px;
+		cursor: default;
+
+		&:before {
+			position: absolute;
+			content: '';
+			width: 7px;
+			height: 115px;
+			background: #af0101;
+			top: 6px;
+			left: 9px;
+		}
 
 		span {
 			color: #000000;
 			font-size: 34px;
 			font-weight: normal;
+			letter-spacing: 0.039em;
+			margin: -4px 0 0 1px;
 			display: block;
 		}
 	}
 
 	&__text {
 		position: absolute;
-		top: 70%;
-		right: 21px;
+		bottom: 82px;
+		right: 25px;
 		width: 500px;
-		padding: 0 50px 0 0;
+		//padding: 0 50px 0 0;
 		margin: 0;
 		//border-left: 2px solid #af0101;
 		//border-right: 2px solid #af0101;
 		color: #af0101;
 		font-size: 27px;
-		font-weight: normal;
 		text-align: right;
 		letter-spacing: 0.01em;
+		cursor: default;
 
 		//&:before,
 		//&:after {
@@ -148,24 +213,23 @@ body {
 
 	&__mail {
 		position: absolute;
-		right: -90px;
-		top: 360px;
+		right: -80px;
+		top: 363px;
 		transform: rotate(-90deg);
 		text-decoration: none;
 		color: #000000;
 		font-size: 20px;
-		font-weight: normal;
 
 		+ span {
 			position: absolute;
-			width: 25px;
-			height: 25px;
+			width: 27px;
+			height: 27px;
 			background-image: url(../img/mail.svg);
 			background-repeat: no-repeat;
 			background-position: center;
-			top: 220px;
-			right: 9px;
-			transition: .5s;
+			top: 216px;
+			right: 25px;
+			transition: .3s;
 		}
 
 		&:hover {
@@ -178,25 +242,27 @@ body {
 }
 
 .menu {
+	margin: 54px 25px 0 0;
 	text-transform: uppercase;
 
 	&__items {
-		list-style-type: none;
-		margin: 30px 0 0 0;
-		border-left: 2px solid #af0101;
-		border-right: 2px solid #af0101;
-		padding: 0 15px;
 		display: flex;
+		list-style-type: none;
+		border-left: 3px solid #af0101;
+		border-right: 3px solid #af0101;
+		margin: 0;
+		padding: 6px 15px;
 	}
 
 	&__item {
-		margin: 0 0 0 50px;
+		margin: 0 0 0 46px;
+		font-size: 22px;
+		font-weight: bold;
 		color: #af0101;
 		text-decoration: none;
 		transition: .3s;
 		position: relative;
 		cursor: pointer;
-		font-size: 22px;
 
 		&:first-child {
 			margin: 0;
@@ -237,13 +303,13 @@ body {
 
 .lang {
 	display: flex;
-	padding: 0 0 0 15px;
-	margin: 30px 0 0 0;
+	padding: 0;
+	margin: 60px 0 0 25px;
 
 	&__item {
 		color: #af0101;
 		list-style-type: none;
-		margin: 0 10px 0 0;
+		margin: 0 16px 0 0;
 
 
 		&:nth-child(2) {
@@ -254,7 +320,6 @@ body {
 	&__link {
 		text-decoration: none;
 		font-size: 20px;
-		font-weight: normal;
 		color: #000000;
 		text-transform: uppercase;
 		transition: .3s;
@@ -290,5 +355,18 @@ body {
 				width: 37%;
 			}
 		}
+	}
+}
+
+/*---------------------------------
+---------------Books---------------
+---------------------------------*/
+
+.books {
+	background: #ecedef;
+	height: 1000px;
+
+	p {
+		margin: 0;
 	}
 }
