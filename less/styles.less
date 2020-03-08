@@ -471,7 +471,59 @@ body {
 ----------------------------------*/
 
 .footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	background: #434343;
+	padding: 77px 0 37px 0;
+
+	&__mail {
+		font-size: 24px;
+		color: #ffffff;
+		text-decoration: none;
+		letter-spacing: 0.01em;
+		margin: 74px 0 0 0;
+		transition: .3s;
+		position: relative;
+
+		&:before,
+		&:after {
+			display: block;
+			position: absolute;
+			content: "";
+			height: 3px;
+			width: 0;
+			background-color: #ffffff;
+			left: 50%;
+			bottom: -7px;
+		}
+
+		&:before {
+			transition: width .3s ease-in-out,left .3s ease-in-out;
+		}
+
+		&:after {
+			transition: width .3s ease-in-out;
+		}
+
+		&:hover {
+			&:before {
+				width: 29%;
+				left: 21%;
+			}
+
+			&:after {
+				width: 37%;
+			}
+		}
+	}
+
+	&__copyright {
+		margin: 23px 0 0 0;
+		font-size: 18px;
+		color: #ffffff;
+		letter-spacing: 0.01em;
+	}
 }
 
 .menu_f {

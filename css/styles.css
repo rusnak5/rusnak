@@ -304,7 +304,50 @@ body {
 ---------------Footer---------------
 ----------------------------------*/
 .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: #434343;
+  padding: 77px 0 37px 0;
+}
+.footer__mail {
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  margin: 74px 0 0 0;
+  transition: .3s;
+  position: relative;
+}
+.footer__mail:before,
+.footer__mail:after {
+  display: block;
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 0;
+  background-color: #ffffff;
+  left: 50%;
+  bottom: -7px;
+}
+.footer__mail:before {
+  transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+.footer__mail:after {
+  transition: width 0.3s ease-in-out;
+}
+.footer__mail:hover:before {
+  width: 29%;
+  left: 21%;
+}
+.footer__mail:hover:after {
+  width: 37%;
+}
+.footer__copyright {
+  margin: 23px 0 0 0;
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 0.01em;
 }
 .menu_f {
   margin: 0;
