@@ -43,16 +43,16 @@ body {
   position: relative;
   height: 100vh;
   overflow: hidden;
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: 1550px 70%;
+  background-position: 50% 100%;
 }
 .header__content {
   display: flex;
   justify-content: space-between;
   position: relative;
   height: 100%;
-  background-image: url(../img/bg.png);
-  background-repeat: no-repeat;
-  background-size: 100% 75%;
-  background-position: -7px bottom;
 }
 .header__title {
   position: absolute;
@@ -378,4 +378,26 @@ body {
 }
 .menu__item_f:last-child span:after {
   display: none;
+}
+/*---------------------------------
+---------------About---------------
+---------------------------------*/
+.about {
+  background: #a5a5a5;
+  padding: 108px 0;
+}
+.about__title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #af0101;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+.about__content {
+  display: flex;
+}
+.about__left {
+  width: 269px;
+  height: 269px;
+  background: url(../img/photo.png);
 }
