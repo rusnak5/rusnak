@@ -273,7 +273,7 @@ body {
 			display: block;
 			position: absolute;
 			content: "";
-			height: 2px;
+			height: 3px;
 			width: 0;
 			background-color: #af0101;
 			left: 50%;
@@ -463,5 +463,50 @@ body {
 				width: 37%;
 			}
 		}
+	}
+}
+
+/*----------------------------------
+---------------Footer---------------
+----------------------------------*/
+
+.footer {
+	background: #434343;
+}
+
+.menu_f {
+	margin: 0;
+}
+
+.menu__items_f {
+	justify-content: center;
+	border: 0;
+}
+
+.menu__item_f {
+	margin: 0 0 0 56px;
+	color: #ffffff;
+
+	&:before,
+	&:after {
+		background-color: #ffffff;
+	}
+
+	span {
+		position: relative;
+
+		&:after {
+			position: absolute;
+			content: '';
+			top: -6px;
+			right: -32px;
+			width: 3px;
+			height: 40px;
+			background: #ffffff;
+		}
+	}
+
+	&:last-child span:after {
+		display: none;
 	}
 }

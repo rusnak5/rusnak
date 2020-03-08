@@ -1,9 +1,10 @@
-$('.header').on('click','.btn', function () {
+$('.btn').on('click', function () {
 	var top = $('.books').offset().top;
 	$('body,html').animate({scrollTop: top}, 1000);
 });
 
-$('.header').on('click','.menu__item_book', function () {
+$('.menu__item_book').on('click', function () {
 	var top = $('.books').offset().top;
 	$('body,html').animate({scrollTop: top}, 1000);
 });
+
