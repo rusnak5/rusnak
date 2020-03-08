@@ -401,3 +401,48 @@ body {
   height: 269px;
   background: url(../img/photo.png);
 }
+.about__right {
+  margin: 13px 0 0 168px;
+}
+.about__item {
+  font-size: 27px;
+  font-weight: lighter;
+  margin: 0 0 15px 0;
+}
+.about__item_education {
+  margin: 61px 0 0 0;
+  line-height: 52px;
+}
+.about__item span {
+  font-weight: normal;
+}
+.about__link {
+  color: #000000;
+  text-decoration: none;
+  transition: .3s;
+  position: relative;
+}
+.about__link:before,
+.about__link:after {
+  display: block;
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 0;
+  background-color: #000000;
+  left: 50%;
+  bottom: -7px;
+}
+.about__link:before {
+  transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+.about__link:after {
+  transition: width 0.3s ease-in-out;
+}
+.about__link:hover:before {
+  width: 29%;
+  left: 21%;
+}
+.about__link:hover:after {
+  width: 37%;
+}
