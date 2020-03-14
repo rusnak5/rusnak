@@ -6,7 +6,7 @@ body {
   font-family: 'Microsoft YaHei', sans-serif;
 }
 .wrapper {
-  width: 1200px;
+  width: 1243px;
   height: 100%;
   margin: 0 auto;
 }
@@ -36,17 +36,19 @@ body {
   border-bottom: 2px solid #000000;
   transition: .3s;
 }
+.btn_about {
+  background: #a5a5a5;
+}
 /*----------------------------------
 ---------------Header---------------
 ----------------------------------*/
 .header {
   position: relative;
-  height: 100vh;
+  height: 771px;
   overflow: hidden;
-  background-image: url(../img/bg.png);
+  background-image: url(../img/road.png);
   background-repeat: no-repeat;
-  background-size: 1550px 70%;
-  background-position: 50% 100%;
+  background-position: calc(50% + 54px) calc(100% + 28px);
 }
 .header__content {
   display: flex;
@@ -56,7 +58,7 @@ body {
 }
 .header__title {
   position: absolute;
-  top: 50%;
+  top: 416px;
   left: 16px;
   transform: translate(0, -50%);
   color: #af0101;
@@ -81,7 +83,7 @@ body {
   font-size: 34px;
   font-weight: normal;
   letter-spacing: 0.039em;
-  margin: -4px 0 0 1px;
+  margin: -5px 0 0 1px;
   display: block;
 }
 .header__text {
@@ -168,6 +170,10 @@ body {
 .menu__item:hover:after {
   width: 37%;
 }
+.menu__link {
+  text-decoration: none;
+  color: inherit;
+}
 .lang {
   display: flex;
   padding: 0;
@@ -215,7 +221,7 @@ body {
 ---------------------------------*/
 .books {
   background: #ecedef;
-  padding: 50px 0 138px 0;
+  padding: 108px 0 138px 0;
 }
 .books__title {
   text-transform: uppercase;

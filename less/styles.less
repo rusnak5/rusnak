@@ -30,7 +30,7 @@ body {
 }
 
 .wrapper {
-	width: 1200px;
+	width: 1243px;
 	height: 100%;
 	margin: 0 auto;
 }
@@ -104,6 +104,10 @@ body {
 		border-bottom: 2px solid #000000;
 		transition: .3s;
 	}
+
+	&_about {
+		background: #a5a5a5;
+	}
 }
 
 /*----------------------------------
@@ -112,13 +116,11 @@ body {
 
 .header {
 	position: relative;
-	height: 100vh;
+	height: 771px;
 	overflow: hidden;
-	background-image: url(../img/bg.png);
+	background-image: url(../img/road.png);
 	background-repeat: no-repeat;
-	background-size: 1550px 70%;
-	background-position: 50% 100%;
-	//position: relative;
+	background-position: ~"calc(50% + 54px)" ~"calc(100% + 28px)";
 
 	//&:before {
 	//	position: absolute;
@@ -141,7 +143,7 @@ body {
 
 	&__title {
 		position: absolute;
-		top: 50%;
+		top: 416px;
 		left: 16px;
 		transform: translate(0, -50%);
 		color: #af0101;
@@ -169,7 +171,7 @@ body {
 			font-size: 34px;
 			font-weight: normal;
 			letter-spacing: 0.039em;
-			margin: -4px 0 0 1px;
+			margin: -5px 0 0 1px;
 			display: block;
 		}
 	}
@@ -299,6 +301,11 @@ body {
 			}
 		}
 	}
+
+	&__link {
+		text-decoration: none;
+		color: inherit;
+	}
 }
 
 .lang {
@@ -364,7 +371,7 @@ body {
 
 .books {
 	background: #ecedef;
-	padding: 50px 0 138px 0;
+	padding: 108px 0 138px 0;
 
 	&__title {
 		text-transform: uppercase;
