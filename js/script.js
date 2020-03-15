@@ -1,4 +1,4 @@
-if (window.location.href.indexOf('index.html') != -1) {
+if ( $('body').hasClass('page-main') ) {
 	$('.btn').on('click', function () {
 		var top = $('.books').offset().top;
 		$('html').animate({scrollTop: top}, 1000);
@@ -10,7 +10,7 @@ if (window.location.href.indexOf('index.html') != -1) {
 	});
 }
 
-if (window.location.href.indexOf('about.html') != -1) {
+if ( $('body').hasClass('page-about') ) {
 	$('.btn_about').on('click', function () {
 		var top = $('.about').offset().top;
 		$('html').animate({scrollTop: top}, 1000);
