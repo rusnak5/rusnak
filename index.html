@@ -130,9 +130,15 @@
 			<div class="feedback__close"></div>
 			<h2 class="feedback__title">обратная связь</h2>
 			<form class="feedback__form">
-				<input type="text" class="feedback__subject">
-				<input type="text" class="feedback__text">
-				<input type="submit">
+				<div class="feedback__email">
+					<input type="email" class="feedback__email-input" novalidate placeholder="Ваш e-mail">
+				</div>
+				<div class="feedback__text">
+					<textarea class="feedback__text-textarea" placeholder="Ваше сообщение"></textarea>
+				</div>
+				<div class="feedback__submit">
+					<input type="submit" class="feedback__submit-input">
+				</div>
 			</form>
 		</div>
 	</div>

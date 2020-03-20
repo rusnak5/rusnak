@@ -39,6 +39,5 @@ $('.feedback__form').on('submit', function(e){
     var subject = $('.feedback__subject').val();
     var text = $('.feedback__text').val();
     var url = 'http://rusnak5.000webhostapp.com' + '?subject=' + subject + '&text=' + text;
-    // document.location.href = url;
 	window.open(url,'policyWindow','height=300px,left=0,top=1,width=500px');
 });
