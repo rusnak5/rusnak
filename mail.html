@@ -7,6 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Обратная связь</title>
     <style>
+        a {
+            position: absolute;
+            top: calc(50% + 30px);
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
         p {
             position: absolute;
             top: 50%;
@@ -26,9 +32,10 @@
 </head>
 <body>
     <p>Спасибо за обращение!</p>
+    <a href="#">Закрыть</a>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
-        $('p').on('click', function() {
+        $('a').on('click', function() {
             window.close();
         });
     </script>
