@@ -474,6 +474,7 @@ body {
   height: 1000px;
   background: rgba(0, 0, 0, 0.5);
   z-index: 2;
+  display: none;
 }
 .feedback__wrapper {
   width: 100%;
@@ -533,27 +534,69 @@ body {
 .feedback__form {
   margin: 38px 0 0 0;
 }
+.feedback__email {
+  position: relative;
+}
 .feedback__email-input {
   width: 100%;
-  padding: 20px;
+  padding: 20px 48px;
+  font-family: 'Microsoft YaHei', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  border: 1px solid #999999;
   box-sizing: border-box;
+  outline: none;
+}
+.feedback__email-input.error {
+  border: 1px solid #ff0000;
+}
+.feedback__email-error,
+.feedback__textarea-error {
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  font-size: 10px;
+  color: #ff0000;
+  display: none;
 }
 .feedback__text {
   height: 360px;
   margin: 25px 0 0 0;
+  position: relative;
 }
 .feedback__text-textarea {
   width: 100%;
   height: 360px;
+  padding: 20px 48px;
+  font-family: 'Microsoft YaHei', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  border: 1px solid #999999;
   box-sizing: border-box;
   resize: none;
-  padding: 20px;
+  outline: none;
+}
+.feedback__text-textarea.error {
+  border: 1px solid #ff0000;
+}
+.feedback__counter {
+  position: absolute;
+  bottom: -15px;
+  right: 0;
+  font-size: 10px;
+  color: darkgreen;
 }
 .feedback__submit-input {
   display: block;
-  margin: 0 auto;
+  margin: 70px auto 0;
+  padding: 18px 84px;
   text-transform: uppercase;
   font-size: 20px;
+  border: 0;
+  background: #af0101;
+  color: #dddddd;
+  cursor: pointer;
+  outline: none;
 }
 /*------------------------------------------
 ---------------Responsibility---------------

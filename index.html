@@ -129,12 +129,17 @@
 		<div class="feedback__window">
 			<div class="feedback__close"></div>
 			<h2 class="feedback__title">обратная связь</h2>
-			<form class="feedback__form">
+			<form class="feedback__form" novalidate>
 				<div class="feedback__email">
-					<input type="email" class="feedback__email-input" novalidate placeholder="Ваш e-mail">
+					<input type="email" class="feedback__email-input" placeholder="Ваш e-mail">
+					<span class="feedback__email-error">Некорректно заполнено email</span>
 				</div>
 				<div class="feedback__text">
 					<textarea class="feedback__text-textarea" placeholder="Ваше сообщение"></textarea>
+					<span class="feedback__textarea-error">Нужно ввести сообщение</span>
+					<span class="feedback__counter">
+						Cимволов осталось - 750
+					</span>
 				</div>
 				<div class="feedback__submit">
 					<input type="submit" class="feedback__submit-input">
