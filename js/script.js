@@ -57,13 +57,13 @@ $('.feedback__text-textarea').on('keyup', function() {
 	$(this).removeClass('error');
 	$(this).siblings('.feedback__textarea-error').hide();
 
-	$('.feedback__counter').text( '' +
-		'Cимволов осталось - ' +
-		(750 - $(this).val().length));
-
 	if ($(this).val().length > 750) {
 		$(this).val( $(this).val().slice(0, 750) );
 	}
+
+	$('.feedback__counter').text( '' +
+		'Cимволов осталось - ' +
+		(750 - $(this).val().length));
 });
 
 $('.feedback__form').on('submit', function(e){
@@ -101,5 +101,8 @@ $('.feedback__form').on('submit', function(e){
 		var url = 'http://rusnak5.000webhostapp.com' + '?email=' + email + '&text=' + text;
 		window.open(url,'policyWindow','height=300px,left=0,top=1,width=500px');
 		$('.feedback').fadeOut(0);
+		$('.feedback__email-input').val('');
+		$('.feedback__text-textarea').val('');
+		$('.feedback__counter').text('Cимволов осталось - 750');
 	}
 });
