@@ -1,5 +1,7 @@
 if ( $('body').hasClass('page-main') ) {
-	window.history.pushState('', '', '/');
+	if (window.location.href.indexOf('rusnak.ml') != -1) {
+		window.history.pushState('', '', '/');
+	}
 
 	$('.btn').on('click', function () {
 		var top = $('.books').offset().top;
@@ -13,7 +15,9 @@ if ( $('body').hasClass('page-main') ) {
 }
 
 if ( $('body').hasClass('page-about') ) {
-	window.history.pushState('', '', '/about');
+	if (window.location.href.indexOf('rusnak.ml') != -1) {
+		window.history.pushState('', '', '/about');
+	}
 
 	$('.btn_about').on('click', function () {
 		var top = $('.about').offset().top;
