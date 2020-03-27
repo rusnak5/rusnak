@@ -111,5 +111,3 @@ $('.feedback__form').on('submit', function(e){
 		$('.feedback__counter').text('Cимволов осталось - 750');
 	}
 });
-
-window.history.pushState('object or string', 'Title', '/new-url');
