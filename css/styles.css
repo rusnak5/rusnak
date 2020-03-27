@@ -10,6 +10,11 @@ body {
   height: 100%;
   margin: 0 auto;
 }
+@media screen and (max-width: 1440px) {
+  .wrapper {
+    width: 768px;
+  }
+}
 .btn {
   position: absolute;
   content: '';
@@ -21,6 +26,13 @@ body {
   transform: rotate(45deg) translate(-100%, -31%);
   border-top-left-radius: 50%;
   cursor: pointer;
+}
+@media screen and (max-width: 1440px) {
+  .btn {
+    bottom: -74px;
+    width: 52px;
+    height: 52px;
+  }
 }
 .btn:hover:before {
   transform: scale(1.1);
@@ -36,6 +48,14 @@ body {
   border-bottom: 2px solid #000000;
   transition: .3s;
 }
+@media screen and (max-width: 1440px) {
+  .btn:before {
+    top: 7px;
+    left: 8px;
+    width: 15px;
+    height: 15px;
+  }
+}
 .btn_about {
   background: #a5a5a5;
 }
@@ -49,6 +69,13 @@ body {
   background-image: url(../img/road.png);
   background-repeat: no-repeat;
   background-position: calc(50% + 54px) calc(100% + 28px);
+}
+@media screen and (max-width: 1440px) {
+  .header {
+    height: 463px;
+    background-size: 918px 478px;
+    background-position: calc(50% + 33px) calc(100% + 16px);
+  }
 }
 .header__content {
   display: flex;
@@ -69,6 +96,13 @@ body {
   padding: 0 25px;
   cursor: default;
 }
+@media screen and (max-width: 1440px) {
+  .header__title {
+    top: 248px;
+    left: 11px;
+    font-size: 36px;
+  }
+}
 .header__title:before {
   position: absolute;
   content: '';
@@ -78,6 +112,14 @@ body {
   top: 6px;
   left: 9px;
 }
+@media screen and (max-width: 1440px) {
+  .header__title:before {
+    width: 4px;
+    height: 70px;
+    top: 5px;
+    left: 15px;
+  }
+}
 .header__title span {
   color: #000000;
   font-size: 34px;
@@ -85,6 +127,12 @@ body {
   letter-spacing: 0.039em;
   margin: -5px 0 0 1px;
   display: block;
+}
+@media screen and (max-width: 1440px) {
+  .header__title span {
+    font-size: 20px;
+    margin: -2px 0 0 1px;
+  }
 }
 .header__text {
   position: absolute;
@@ -98,6 +146,13 @@ body {
   letter-spacing: 0.01em;
   cursor: default;
 }
+@media screen and (max-width: 1440px) {
+  .header__text {
+    bottom: 49px;
+    right: 26px;
+    font-size: 16px;
+  }
+}
 .header__mail {
   position: absolute;
   right: -80px;
@@ -106,6 +161,13 @@ body {
   text-decoration: none;
   color: #000000;
   font-size: 20px;
+}
+@media screen and (max-width: 1440px) {
+  .header__mail {
+    right: -37px;
+    top: 218px;
+    font-size: 12px;
+  }
 }
 .header__mail + span {
   position: absolute;
@@ -118,12 +180,25 @@ body {
   right: 25px;
   transition: .3s;
 }
+@media screen and (max-width: 1440px) {
+  .header__mail + span {
+    width: 17px;
+    height: 17px;
+    top: 130px;
+    right: 25px;
+  }
+}
 .header__mail:hover + span {
   transform: rotate(360deg);
 }
 .menu {
   margin: 54px 25px 0 0;
   text-transform: uppercase;
+}
+@media screen and (max-width: 1440px) {
+  .menu {
+    margin: 32px 25px 0 0;
+  }
 }
 .menu__items {
   display: flex;
@@ -132,6 +207,14 @@ body {
   border-right: 3px solid #af0101;
   margin: 0;
   padding: 6px 15px;
+}
+@media screen and (max-width: 1440px) {
+  .menu__items {
+    border-left: 2px solid #af0101;
+    border-right: 2px solid #af0101;
+    margin: 0;
+    padding: 2px 8px;
+  }
 }
 .menu__item {
   margin: 0 0 0 46px;
@@ -142,6 +225,12 @@ body {
   transition: .3s;
   position: relative;
   cursor: pointer;
+}
+@media screen and (max-width: 1440px) {
+  .menu__item {
+    margin: 0 0 0 24px;
+    font-size: 14px;
+  }
 }
 .menu__item:first-child {
   margin: 0;
@@ -156,6 +245,12 @@ body {
   background-color: #af0101;
   left: 50%;
   bottom: -7px;
+}
+@media screen and (max-width: 1440px) {
+  .menu__item:before,
+  .menu__item:after {
+    height: 2px;
+  }
 }
 .menu__item:before {
   transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
@@ -179,10 +274,20 @@ body {
   padding: 0;
   margin: 60px 0 0 25px;
 }
+@media screen and (max-width: 1440px) {
+  .lang {
+    margin: 32px 0 0 25px;
+  }
+}
 .lang__item {
   color: #af0101;
   list-style-type: none;
   margin: 0 16px 0 0;
+}
+@media screen and (max-width: 1440px) {
+  .lang__item {
+    margin: 0 10px 0 0;
+  }
 }
 .lang__link {
   text-decoration: none;
@@ -191,6 +296,11 @@ body {
   text-transform: uppercase;
   transition: .3s;
   position: relative;
+}
+@media screen and (max-width: 1440px) {
+  .lang__link {
+    font-size: 12px;
+  }
 }
 .lang__link:before,
 .lang__link:after {
