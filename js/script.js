@@ -1,4 +1,6 @@
 if ( $('body').hasClass('page-main') ) {
+	window.history.pushState('', '', '/');
+
 	$('.btn').on('click', function () {
 		var top = $('.books').offset().top;
 		$('html').animate({scrollTop: top}, 1000);
@@ -11,6 +13,8 @@ if ( $('body').hasClass('page-main') ) {
 }
 
 if ( $('body').hasClass('page-about') ) {
+	window.history.pushState('', '', '/about');
+
 	$('.btn_about').on('click', function () {
 		var top = $('.about').offset().top;
 		$('html').animate({scrollTop: top}, 1000);
@@ -107,3 +111,5 @@ $('.feedback__form').on('submit', function(e){
 		$('.feedback__counter').text('Cимволов осталось - 750');
 	}
 });
+
+window.history.pushState('object or string', 'Title', '/new-url');
