@@ -84,18 +84,29 @@
 		<a href="mailto:rusnakalex1@gmail.com" class="footer__mail">RusnakAlex1@gmail.com</a>
 		<p class="footer__copyright">&copy; 2020 Rusnak Alex. All rights reserved.</p>
 	</footer>
-    <div class="feedback">
-        <div class="feedback__wrapper"></div>
-        <div class="feedback__window">
-            <div class="feedback__close"></div>
-            <h2 class="feedback__title">обратная связь</h2>
-            <form class="feedback__form">
-                <input type="text" class="feedback__subject">
-                <input type="text" class="feedback__text">
-                <input type="submit">
-            </form>
-        </div>
-    </div>
+	<div class="feedback">
+		<div class="feedback__wrapper"></div>
+		<div class="feedback__window">
+			<div class="feedback__close"></div>
+			<h2 class="feedback__title">обратная связь</h2>
+			<form class="feedback__form" novalidate>
+				<div class="feedback__email">
+					<input type="email" class="feedback__email-input" placeholder="Ваш e-mail">
+					<span class="feedback__email-error">Некорректно заполнено email</span>
+				</div>
+				<div class="feedback__text">
+					<textarea class="feedback__text-textarea" placeholder="Ваше сообщение"></textarea>
+					<span class="feedback__textarea-error">Нужно ввести сообщение</span>
+					<span class="feedback__counter">
+						Cимволов осталось - 750
+					</span>
+				</div>
+				<div class="feedback__submit">
+					<input type="submit" class="feedback__submit-input">
+				</div>
+			</form>
+		</div>
+	</div>
 	<div class="resp">
 		<div class="resp__wrapper"></div>
 		<div class="resp__window">

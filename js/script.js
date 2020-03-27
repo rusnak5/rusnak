@@ -44,7 +44,8 @@ $('.feedback__email-input').on('keyup', function() {
 });
 
 $('.feedback__text-textarea').on('keyup', function() {
-	var regexText = /^[a-zA-Zа-яА-Я0-9\s]*$/;
+	// var regexText = /^[a-zA-Zа-яА-Я0-9\s]*$/;
+	var regexText = /^[^#&]*$/;
 
 	if ( regexText.test( $(this).val() ) ) {
 		trueResultLength = $(this).val().length;
