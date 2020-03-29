@@ -10,7 +10,7 @@ body {
   height: 100%;
   margin: 0 auto;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .wrapper {
     width: 768px;
   }
@@ -32,7 +32,7 @@ body {
   border-top-left-radius: 50%;
   cursor: pointer;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .btn {
     bottom: -74px;
     width: 52px;
@@ -53,7 +53,7 @@ body {
   border-bottom: 2px solid #000000;
   transition: .3s;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .btn:before {
     top: 7px;
     left: 8px;
@@ -75,7 +75,7 @@ body {
   background-repeat: no-repeat;
   background-position: calc(50% + 54px) calc(100% + 28px);
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .header {
     height: 463px;
     background-size: 918px 478px;
@@ -107,7 +107,7 @@ body {
   padding: 0 25px;
   cursor: default;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .header__title {
     top: 248px;
     left: 11px;
@@ -132,7 +132,7 @@ body {
   top: 6px;
   left: 9px;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .header__title:before {
     width: 4px;
     height: 70px;
@@ -156,7 +156,7 @@ body {
   margin: -5px 0 0 1px;
   display: block;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .header__title span {
     font-size: 20px;
     margin: -2px 0 0 1px;
@@ -179,7 +179,7 @@ body {
   letter-spacing: 0.01em;
   cursor: default;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .header__text {
     bottom: 49px;
     right: 26px;
@@ -200,7 +200,7 @@ body {
   color: #000000;
   font-size: 20px;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .header__mail {
     right: -37px;
     top: 218px;
@@ -218,7 +218,7 @@ body {
   right: 25px;
   transition: .3s;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .header__mail + span {
     width: 17px;
     height: 17px;
@@ -233,7 +233,7 @@ body {
   margin: 54px 25px 0 0;
   text-transform: uppercase;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .menu {
     margin: 32px 25px 0 0;
   }
@@ -251,7 +251,7 @@ body {
   margin: 0;
   padding: 6px 15px;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .menu__items {
     border-left: 2px solid #af0101;
     border-right: 2px solid #af0101;
@@ -269,7 +269,7 @@ body {
   position: relative;
   cursor: pointer;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .menu__item {
     margin: 0 0 0 24px;
     font-size: 14px;
@@ -289,7 +289,7 @@ body {
   left: 50%;
   bottom: -7px;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .menu__item:before,
   .menu__item:after {
     height: 2px;
@@ -338,7 +338,7 @@ body {
   padding: 0;
   margin: 60px 0 0 25px;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .lang {
     margin: 32px 0 0 25px;
   }
@@ -353,7 +353,7 @@ body {
   list-style-type: none;
   margin: 0 16px 0 0;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .lang__item {
     margin: 0 10px 0 0;
   }
@@ -366,7 +366,7 @@ body {
   transition: .3s;
   position: relative;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .lang__link {
     font-size: 12px;
   }
@@ -402,7 +402,7 @@ body {
   background: #ecedef;
   padding: 108px 0 138px 0;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .books {
     padding: 75px 0 75px 0;
   }
@@ -420,7 +420,7 @@ body {
   letter-spacing: 0.03em;
   margin: 0;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .books__title {
     font-size: 16px;
   }
@@ -429,7 +429,7 @@ body {
   display: flex;
   padding: 138px 0 0 0;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .books__item {
     padding: 75px 25px 0 25px;
   }
@@ -503,7 +503,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .books__title-s {
     font-size: 16px;
   }
@@ -520,7 +520,7 @@ body {
   letter-spacing: 0.017em;
   margin: 17px 0 0 0;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .books__text {
     font-size: 14px;
     line-height: 24px;
@@ -529,7 +529,7 @@ body {
 .books__links {
   margin: 53px 0 0 0;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .books__links {
     margin: 25px 0 0 0;
   }
@@ -543,7 +543,7 @@ body {
   transition: .3s;
   position: relative;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .books__link {
     font-size: 14px;
   }
@@ -582,7 +582,7 @@ body {
   background: #434343;
   padding: 77px 0 37px 0;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .footer {
     padding: 50px 0 25px 0;
   }
@@ -601,7 +601,7 @@ body {
   transition: .3s;
   position: relative;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .footer__mail {
     font-size: 16px;
     margin: 35px 0 0 0;
@@ -644,7 +644,7 @@ body {
   color: #ffffff;
   letter-spacing: 0.01em;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .footer__copyright {
     margin: 16px 0 0 0;
     font-size: 14px;
@@ -733,7 +733,7 @@ body {
   height: 40px;
   background: #ffffff;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
   .menu__item_f span:after,
   .menu__item_f a:after {
     top: 0;
