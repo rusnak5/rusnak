@@ -9,6 +9,8 @@ if ( $('body').hasClass('page-main') ) {
 	});
 
 	$('.menu__item_book').on('click', function () {
+		$('.menu_h').hide();
+		$('body').css('overflow', 'auto');
 		var top = $('.books').offset().top;
 		$('html').animate({scrollTop: top}, 1000);
 	});
@@ -25,6 +27,8 @@ if ( $('body').hasClass('page-about') ) {
 	});
 
 	$('.menu__item_about').on('click', function () {
+		$('.menu_h').hide();
+		$('body').css('overflow', 'auto');
 		var top = $('.about').offset().top;
 		$('html').animate({scrollTop: top}, 1000);
 	});
@@ -114,4 +118,14 @@ $('.feedback__form').on('submit', function(e){
 		$('.feedback__text-textarea').val('');
 		$('.feedback__counter').text('Cимволов осталось - 750');
 	}
+});
+
+$('.hamb').on('click', function() {
+	$('.menu_h').show();
+	$('body').css('overflow', 'hidden');
+});
+
+$('.menu__close').on('click', function() {
+	$('.menu_h').hide();
+	$('body').css('overflow', 'auto');
 });
