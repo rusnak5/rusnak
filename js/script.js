@@ -15,7 +15,7 @@ if ( $('body').hasClass('page-main') ) {
 			$('.menu__item_book').on('click', function () {
 				$('body').css('overflow', 'auto');
 				var top = $('.books').offset().top;
-				$('html').stop().animate({scrollTop: top}, 1000);
+				$('body, html').stop().animate({scrollTop: top}, 1000);
 			});
 		} else {
 			$('.menu__item_book').on('click', function () {
