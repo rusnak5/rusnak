@@ -27,6 +27,7 @@ body {
 	margin: 0;
 	//font-family: 'Roboto', sans-serif;
 	font-family: 'Microsoft YaHei', sans-serif;
+	-webkit-tap-highlight-color: transparent;
 }
 
 .wrapper {
@@ -96,10 +97,10 @@ body {
 	transform: rotate(45deg) translate(-100%, -31%);
 	border-top-left-radius: 50%;
 	cursor: pointer;
+	z-index: 1;
 
 	@media screen and (max-width: 1600px) {
 		bottom: -134px;
-		z-index: 1;
 	}
 
 	&:hover:before {
@@ -146,17 +147,6 @@ body {
 		height: 467px;
 		background-size: 912px 484px;
 		background-position: ~"calc(50% + 33px)" ~"calc(100% + 12px)";
-		position: relative;
-
-		&:after {
-			position: absolute;
-			content: '';
-			width: 100%;
-			height: 1px;
-			background: #b20909;
-			bottom: 0;
-			z-index: 0;
-		}
 	}
 
 	@media screen and (max-width: 767px) {
@@ -164,9 +154,19 @@ body {
 		background-size: 671px 523px;
 		background-position: ~"calc(50% - 48px)" 94px;
 
-		&:after {
-			display: none;
-		}
+		//&:after {
+		//	display: none;
+		//}
+	}
+
+	&:after {
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 1px;
+		background: #b20909;
+		bottom: 0;
+		z-index: 0;
 	}
 
 	//&:before {
@@ -445,7 +445,7 @@ body {
 		&_h {
 			@media screen and (max-width: 767px) {
 				margin: 0;
-				font-size: 25px;
+				font-size: 20px;
 				text-align: center;
 			}
 
@@ -514,41 +514,44 @@ body {
 	&__close {
 		display: none;
 		position: absolute;
-		top: 39px;
-		right: 10px;
-		width: 30px;
-		height: 15px;
+		//top: 39px;
+		//right: 10px;
+		top: 30px;
+		right: 30px;
+		//width: 30px;
+		//height: 15px;
+		font-size: 25px;
+		color: #af0101;
 
 		@media screen and (max-width: 767px) {
 			display: block;
 		}
 
-		&:before,
-		&:after {
-			position: absolute;
-			content: '';
-			top: 6px;
-			left: -1px;
-			width: 32px;
-			height: 2px;
-			background: #af0101;
-
-		}
-
-		&:before {
-			transform: rotate(19deg);
-		}
-
-		&:after {
-			transform: rotate(-19deg);
-		}
+		//&:before,
+		//&:after {
+		//	position: absolute;
+		//	content: '';
+		//	top: 6px;
+		//	left: -1px;
+		//	width: 32px;
+		//	height: 2px;
+		//	background: #af0101;
+		//}
+		//
+		//&:before {
+		//	transform: rotate(19deg);
+		//}
+		//
+		//&:after {
+		//	transform: rotate(-19deg);
+		//}
 	}
 }
 
 .hamb {
 	position: absolute;
 	top: 40px;
-	right: 10px;
+	right: 23px;
 	cursor: pointer;
 	flex-direction: column;
 	align-items: flex-end;
@@ -587,7 +590,7 @@ body {
 	@media screen and (max-width: 767px) {
 		position: absolute;
 		top: 11px;
-		right: 0;
+		right: 23px;
 		margin: 0;
 	}
 
@@ -604,8 +607,8 @@ body {
 			margin: 0 9px 0 0;
 		}
 
-		&:nth-child(2) {
-			//margin: 30px 10px 0 0;
+		&:last-child {
+			margin: 0;
 		}
 	}
 	
@@ -1115,9 +1118,11 @@ body {
 
 	&__content {
 		display: flex;
+		justify-content: center;
+		padding: 138px 0 0 0;
 
 		@media screen and (max-width: 1600px) {
-			padding: 0 25px;
+			padding: 21px 25px 0;
 		}
 
 		@media screen and (max-width: 767px) {
@@ -1259,6 +1264,7 @@ body {
 
 		@media screen and (max-width: 1600px) {
 			width: 668px;
+			height: 500px;
 			padding: 30px;
 		}
 
@@ -1336,8 +1342,8 @@ body {
 		outline: none;
 
 		@media screen and (max-width: 1600px) {
-			padding: 15px 30px;
-			font-size: 16px;
+			padding: 10px 20px;
+			font-size: 14px;
 		}
 
 		&.error {
@@ -1360,6 +1366,10 @@ body {
 		margin: 25px 0 0 0;
 		position: relative;
 
+		@media screen and (max-width: 1600px) {
+			height: 250px;
+		}
+
 		@media screen and (max-width: 767px) {
 			height: 200px;
 		}
@@ -1378,8 +1388,9 @@ body {
 		outline: none;
 
 		@media screen and (max-width: 1600px) {
-			padding: 15px 30px;
-			font-size: 16px;
+			height: 250px;
+			padding: 10px 20px;
+			font-size: 14px;
 		}
 
 		@media screen and (max-width: 767px) {
@@ -1412,6 +1423,8 @@ body {
 		outline: none;
 
 		@media screen and (max-width: 1600px) {
+			margin: 30px auto 0;
+			padding: 10px 40px;
 			font-size: 16px;
 		}
 
