@@ -161,3 +161,5 @@ $('.menu__close').on('click', function() {
 	$('.menu_h').hide();
 	$('body').css('overflow', 'auto');
 });
+
+alert('test');
