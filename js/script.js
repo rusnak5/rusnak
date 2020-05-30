@@ -154,7 +154,7 @@ $('.feedback__form').on('submit', function(e){
 
 $('.hamb').on('click', function() {
 	$('.menu_h').show();
-	$('body').css('overflow', 'hidden');
+	// $('body').css('overflow', 'hidden');
 });
 
 $('.menu__close').on('click', function() {
