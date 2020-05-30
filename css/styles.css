@@ -177,10 +177,9 @@ body {
 }
 @media screen and (max-width: 767px) {
   .header__title span {
-    margin: -3px 0 0 1px;
     letter-spacing: 0.014em;
     position: absolute;
-    bottom: -23px;
+    bottom: -26px;
   }
 }
 .header__text {
