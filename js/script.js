@@ -20,7 +20,9 @@ if ( $('body').hasClass('page-main') ) {
 			$('.menu__item_book').on('click', function () {
 				$('.menu_h').hide();
 				var top = $('.books').offset().top;
-				$('html').stop().animate({scrollTop: top}, 1000);
+				$('html').stop().animate({scrollTop: top}, 1000, function() {
+					$('body').css('overflow', 'auto');
+				});
 			});
 		}
 	}
@@ -52,7 +54,9 @@ if ( $('body').hasClass('page-about') ) {
 			$('.menu__item_about').on('click', function () {
 				$('.menu_h').hide();
 				var top = $('.about').offset().top;
-				$('html').stop().animate({scrollTop: top}, 1000);
+				$('html').stop().animate({scrollTop: top}, 1000, function() {
+					$('body').css('overflow', 'auto');
+				});
 			});
 		}
 	}
@@ -64,14 +68,17 @@ if ( $('body').hasClass('page-about') ) {
 
 $('.menu__item_resp').click(function() {
     $('.resp').fadeToggle(500);
+	$('body').css('overflow', 'hidden');
 });
 
 $('.menu__item_feedback').click(function() {
 	$('.feedback').fadeToggle(500);
+	$('body').css('overflow', 'hidden');
 });
 
 $('.resp__close, .resp__wrapper, .feedback__close, .feedback__wrapper').click(function() {
     $('.resp, .feedback').fadeOut(0);
+	$('body').css('overflow', 'auto');
 });
 
 $('.feedback__email-input').on('keyup', function() {
@@ -150,9 +157,10 @@ $('.feedback__form').on('submit', function(e){
 
 $('.hamb').on('click', function() {
 	$('.menu_h').show();
-	// $('body').css('overflow', 'hidden');
+	$('body').css('overflow', 'hidden');
 });
 
 $('.menu__close').on('click', function() {
 	$('.menu_h').hide();
+	$('body').css('overflow', 'auto');
 });
