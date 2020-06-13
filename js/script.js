@@ -11,6 +11,7 @@ if ( $('body').hasClass('page-main') ) {
 	function mediaSize() {
 		if (window.matchMedia('(min-width: 768px)').matches) {
 			$('.menu_h').hide();
+			$('body').css('overflow', 'auto');
 			$('.menu__item_book').off();
 			$('.menu__item_book').on('click', function () {
 				var top = $('.books').offset().top;
@@ -46,6 +47,7 @@ if ( $('body').hasClass('page-about') ) {
 	function mediaSize() {
 		if (window.matchMedia('(min-width: 768px)').matches) {
 			$('.menu_h').hide();
+			$('body').css('overflow', 'auto');
 			$('.menu__item_about').off();
 			$('.menu__item_about').on('click', function () {
 				var top = $('.about').offset().top;
