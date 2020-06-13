@@ -45,13 +45,14 @@ if ( $('body').hasClass('page-about') ) {
 
 	function mediaSize() {
 		if (window.matchMedia('(min-width: 768px)').matches) {
-			$('.menu_h').show();
+			$('.menu_h').hide();
 			$('.menu__item_about').off();
 			$('.menu__item_about').on('click', function () {
 				var top = $('.about').offset().top;
 				$('body, html').stop().animate({scrollTop: top}, 1000);
 			});
 		} else {
+			$('.menu_h').hide();
 			$('.menu__item_about').on('click', function () {
 				$('.menu_h').hide();
 				var top = $('.about').offset().top;
