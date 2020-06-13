@@ -10,13 +10,14 @@ if ( $('body').hasClass('page-main') ) {
 
 	function mediaSize() {
 		if (window.matchMedia('(min-width: 768px)').matches) {
-			$('.menu_h').show();
+			$('.menu_h').hide();
 			$('.menu__item_book').off();
 			$('.menu__item_book').on('click', function () {
 				var top = $('.books').offset().top;
 				$('body, html').stop().animate({scrollTop: top}, 1000);
 			});
 		} else {
+			$('.menu_h').hide();
 			$('.menu__item_book').on('click', function () {
 				$('.menu_h').hide();
 				var top = $('.books').offset().top;
