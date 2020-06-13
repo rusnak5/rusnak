@@ -84,9 +84,9 @@ body {
 }
 @media screen and (max-width: 767px) {
   .header {
-    height: 554px;
+    height: 500px;
     background-size: 671px 523px;
-    background-position: calc(50% - 48px) 94px;
+    background-position: calc(50% - 48px) 75px;
   }
 }
 .header:after {
@@ -127,7 +127,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .header__title {
-    top: 189px;
+    top: 150px;
     left: 50%;
     font-size: 34px;
     letter-spacing: 0.011em;
