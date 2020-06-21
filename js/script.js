@@ -18,6 +18,7 @@ if ( $('body').hasClass('page-main') ) {
 			});
 		} else {
 			$('.menu__item_book').on('click', function () {
+				alert(55555);
 				$('.menu_h').hide();
 				var top = $('.books').offset().top;
 				$('body, html').stop().animate({scrollTop: top}, 1000, function() {
