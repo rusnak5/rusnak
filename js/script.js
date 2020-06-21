@@ -1,7 +1,7 @@
 if ( $('body').hasClass('page-main') ) {
-	// if (window.location.href.indexOf('rusnak.ml') != -1) {
-	// 	window.history.pushState('', '', '/');
-	// }
+	if (window.location.href.indexOf('rusnak.ml') != -1) {
+		window.history.pushState('', '', '/');
+	}
 
 	$('.btn').on('click', function () {
 		var top = $('.books').offset().top;
