@@ -17,8 +17,7 @@ if ( $('body').hasClass('page-main') ) {
 				$('body, html').stop().animate({scrollTop: top}, 1000);
 			});
 		} else {
-			$('.menu__item_book span').on('click', function () {
-				alert(55555);
+			$('.menu__item_book').on('click', function () {
 				$('.menu_h').hide();
 				var top = $('.books').offset().top;
 				$('body, html').stop().animate({scrollTop: top}, 1000, function() {
