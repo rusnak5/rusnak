@@ -1,5 +1,5 @@
 if ( $('body').hasClass('page-main') ) {
-	if (window.location.href.indexOf('rusnak.ml') != -1) {
+	if (window.location.href.indexOf('rusnak.link') != -1) {
 		window.history.pushState('', '', '/');
 	}
 
@@ -33,7 +33,7 @@ if ( $('body').hasClass('page-main') ) {
 }
 
 if ( $('body').hasClass('page-about') ) {
-	if (window.location.href.indexOf('rusnak.ml') != -1) {
+	if (window.location.href.indexOf('rusnak.link') != -1) {
 		window.history.pushState('', '', '/about');
 	}
 
