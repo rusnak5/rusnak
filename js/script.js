@@ -42,7 +42,7 @@ if ( $('body').hasClass('page-about') ) {
 		$('body, html').stop().animate({scrollTop: top}, 1000);
 	});
 
-	function mediaSize() {
+	function mediaSize1() {
 		if (window.matchMedia('(min-width: 768px)').matches) {
 			$('body').css('overflow', 'auto');
 			$('.menu__item_about').off();
@@ -61,9 +61,9 @@ if ( $('body').hasClass('page-about') ) {
 		}
 	}
 
-	mediaSize();
+	mediaSize1();
 
-	window.addEventListener('resize', mediaSize, false);
+	window.addEventListener('resize', mediaSize1, false);
 }
 
 $('.menu__item_resp').on('click', function() {
