@@ -967,7 +967,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .about {
-    padding: 54px 0 50px;
+    padding: 54px 0 200px;
   }
 }
 .about__title {
