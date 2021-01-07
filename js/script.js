@@ -152,6 +152,7 @@ $('.feedback__form').on('submit', function(e){
 		var url = 'https://rusnak7.000webhostapp.com' + '?email=' + email + '&text=' + text;
 		window.open(url,'policyWindow','height=300px,left=0,top=1,width=500px');
 		$('.feedback').fadeOut(0);
+		$('body').css('overflow', 'auto');
 		$('.feedback__email-input').val('');
 		$('.feedback__text-textarea').val('');
 		$('.feedback__counter').text('Cимволов осталось - 750');
