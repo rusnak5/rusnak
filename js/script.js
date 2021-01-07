@@ -149,7 +149,7 @@ $('.feedback__form').on('submit', function(e){
 	if (permissionEmail && permissionText) {
 		var email = $('.feedback__email-input').val();
 		var text = $('.feedback__text-textarea').val();
-		var url = 'http://rusnak5.000webhostapp.com' + '?email=' + email + '&text=' + text;
+		var url = 'https://rusnak7.000webhostapp.com' + '?email=' + email + '&text=' + text;
 		window.open(url,'policyWindow','height=300px,left=0,top=1,width=500px');
 		$('.feedback').fadeOut(0);
 		$('.feedback__email-input').val('');
