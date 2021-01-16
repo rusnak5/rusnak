@@ -169,6 +169,19 @@ body {
 		z-index: 0;
 	}
 
+	&_lang {
+		background-image: none;
+		background-color: #ecedef;
+
+		@media screen and (max-width: 1600px) {
+			height: 100vh;
+		}
+
+		&:after {
+			display: none;
+		}
+	}
+
 	//&:before {
 	//	position: absolute;
 	//	content: '';
@@ -240,6 +253,24 @@ body {
 				height: 66px;
 				top: 3px;
 				left: 17px;
+			}
+		}
+
+		&_lang {
+			text-align: center;
+
+			@media screen and (max-width: 1600px) {
+				top: 50%;
+				left: 0;
+				transform: translate(0, -50%);
+			}
+
+			@media screen and (max-width: 767px) {
+				white-space: normal;
+			}
+
+			&:before {
+				display: none;
 			}
 		}
 

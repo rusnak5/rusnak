@@ -98,6 +98,18 @@ body {
   bottom: 0;
   z-index: 0;
 }
+.header_lang {
+  background-image: none;
+  background-color: #ecedef;
+}
+@media screen and (max-width: 1600px) {
+  .header_lang {
+    height: 100vh;
+  }
+}
+.header_lang:after {
+  display: none;
+}
 .header__content {
   display: flex;
   justify-content: space-between;
@@ -159,6 +171,24 @@ body {
     top: 3px;
     left: 17px;
   }
+}
+.header__title_lang {
+  text-align: center;
+}
+@media screen and (max-width: 1600px) {
+  .header__title_lang {
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+  }
+}
+@media screen and (max-width: 767px) {
+  .header__title_lang {
+    white-space: normal;
+  }
+}
+.header__title_lang:before {
+  display: none;
 }
 .header__title span {
   color: #000000;
