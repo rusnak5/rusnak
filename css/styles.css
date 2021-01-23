@@ -174,12 +174,15 @@ body {
 }
 .header__title_lang {
   text-align: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 1600px) {
   .header__title_lang {
     top: 50%;
     left: 0;
     transform: translate(0, -50%);
+    font-size: 34px;
   }
 }
 @media screen and (max-width: 767px) {
