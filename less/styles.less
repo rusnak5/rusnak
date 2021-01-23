@@ -1064,6 +1064,18 @@ body {
 		letter-spacing: 0.06em;
 	}
 
+	&:first-child span:before {
+		@media screen and (max-width: 767px) {
+			position: absolute;
+			content: '';
+			top: 0;
+			left: -15px;
+			width: 1px;
+			height: 18px;
+			background: #ffffff;
+		}
+	}
+
 	&:last-child {
 		@media screen and (max-width: 767px) {
 			margin: 0;

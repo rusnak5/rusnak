@@ -914,6 +914,17 @@ body {
   }
 }
 @media screen and (max-width: 767px) {
+  .menu__item_f:first-child span:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -15px;
+    width: 1px;
+    height: 18px;
+    background: #ffffff;
+  }
+}
+@media screen and (max-width: 767px) {
   .menu__item_f:last-child {
     margin: 0;
   }
