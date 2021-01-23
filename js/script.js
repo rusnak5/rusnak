@@ -67,11 +67,6 @@ $('.menu__item_resp').on('click', function() {
 	$('body').css('overflow', 'hidden');
 });
 
-$('.menu__item_feedback').on('click', function() {
-	$('.feedback').fadeToggle(500);
-	$('body').css('overflow', 'hidden');
-});
-
 $('.resp__close, .resp__wrapper, .feedback__close, .feedback__wrapper').on('click', function() {
     $('.resp, .feedback').fadeOut(0);
 	$('body').css('overflow', 'auto');
