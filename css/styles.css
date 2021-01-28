@@ -925,6 +925,17 @@ body {
   }
 }
 @media screen and (max-width: 767px) {
+  .menu__item_f:first-child a:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -15px;
+    width: 1px;
+    height: 18px;
+    background: #ffffff;
+  }
+}
+@media screen and (max-width: 767px) {
   .menu__item_f:last-child {
     margin: 0;
   }
@@ -1240,3 +1251,4 @@ body {
   top: 15px;
   right: 2px;
 }
+/*# sourceMappingURL=styles.css.map */
