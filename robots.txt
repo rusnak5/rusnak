@@ -1,4 +1,6 @@
 User-agent: *
 Disallow: /*.pdf$
+Disallow: /*.docx$
+Disallow: /*.doc$
 
 Sitemap: https://rusnak.link/sitemap.xml
