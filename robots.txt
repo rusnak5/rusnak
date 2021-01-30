@@ -1,2 +1,4 @@
 User-agent: *
-Allow: /
+Disallow: /*.pdf$
+
+Sitemap: https://rusnak.link/sitemap.xml
