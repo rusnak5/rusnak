@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="99c6a216-a357-4f92-b5ce-94b6cd48fc64" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/electoral-campaign-in-the-majoritarian-district/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/electoral-campaign-in-the-majoritarian-district/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/story-about-story-intelligence-and-subject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/story-about-story-intelligence-and-subject/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ua/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ua/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ua/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ua/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +63,8 @@
       <workItem from="1611511559323" duration="7517000" />
       <workItem from="1611861723697" duration="149000" />
       <workItem from="1612039884884" duration="4351000" />
-      <workItem from="1612268017708" duration="5130000" />
+      <workItem from="1612268017708" duration="6186000" />
+      <workItem from="1612279161655" duration="888000" />
     </task>
     <servers />
   </component>
