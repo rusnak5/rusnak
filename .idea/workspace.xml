@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99c6a216-a357-4f92-b5ce-94b6cd48fc64" name="Default Changelist" comment="" />
+    <list default="true" id="99c6a216-a357-4f92-b5ce-94b6cd48fc64" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/electoral-campaign-in-the-majoritarian-district/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/electoral-campaign-in-the-majoritarian-district/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/story-about-story-intelligence-and-subject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/story-about-story-intelligence-and-subject/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ua/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ua/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ua/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ua/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +29,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -56,6 +66,7 @@
       <workItem from="1612039884884" duration="4351000" />
       <workItem from="1612268017708" duration="6186000" />
       <workItem from="1612279161655" duration="1136000" />
+      <workItem from="1612639647494" duration="837000" />
     </task>
     <servers />
   </component>
