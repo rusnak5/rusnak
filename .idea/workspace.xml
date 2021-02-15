@@ -4,7 +4,7 @@
     <list default="true" id="f069b4c1-16ea-4bd5-bd09-f48df5d0d428" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/books.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/books.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/electoral-campaign-in-the-majoritarian-district/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/electoral-campaign-in-the-majoritarian-district/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/books.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/books.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +34,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/about-dedicated-thinking-experience-of-strange-thinking-part3" />
+      <recent name="$PROJECT_DIR$/lack-of-reason-experience-of-strange-thinking-part1" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,11 +48,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613385295156</updated>
-      <workItem from="1613385301406" duration="3391000" />
+      <workItem from="1613385301406" duration="14020000" />
+      <workItem from="1613404386004" duration="2655000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

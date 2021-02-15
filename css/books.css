@@ -1,1 +1,1 @@
-html{scroll-behavior:smooth}body{padding:0 280px}@media screen and (max-width:1024px){body{padding:0}}p{text-align:justify;font-size:18px}@media screen and (max-width:767px){img{width:100%}}.break{word-break:break-all}
+html{scroll-behavior:smooth}body{padding:0 280px}@media screen and (max-width:1024px){body{padding:0}}p{text-align:justify;font-size:18px}@media screen and (max-width:767px){img{width:100%;margin:0 !important}}.break{word-break:break-all}
