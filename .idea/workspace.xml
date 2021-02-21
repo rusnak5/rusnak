@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f069b4c1-16ea-4bd5-bd09-f48df5d0d428" name="Default Changelist" comment="">
+    <list default="true" id="16a62f8d-4616-43dc-aefd-92129dd02dd4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/public.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,10 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1oVwvIc9f5qMKKVlN4xLE8vQ0vU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="1onl169SKi6zCQXWE9yqEvkJU4R" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,26 +29,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/about-dedicated-thinking-experience-of-strange-thinking-part3" />
-      <recent name="$PROJECT_DIR$/lack-of-reason-experience-of-strange-thinking-part1" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f069b4c1-16ea-4bd5-bd09-f48df5d0d428" name="Default Changelist" comment="" />
-      <created>1613385295156</created>
+      <changelist id="16a62f8d-4616-43dc-aefd-92129dd02dd4" name="Default Changelist" comment="" />
+      <created>1613930022200</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1613385295156</updated>
-      <workItem from="1613385301406" duration="14020000" />
-      <workItem from="1613404386004" duration="9399000" />
-      <workItem from="1613468009807" duration="3688000" />
-      <workItem from="1613544886829" duration="772000" />
+      <updated>1613930022200</updated>
+      <workItem from="1613930025644" duration="3688000" />
     </task>
     <servers />
   </component>
@@ -66,6 +57,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
