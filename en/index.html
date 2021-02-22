@@ -98,9 +98,20 @@
         </div>
     </div>
 
-<script src="/js/jquery-3.4.1.min.js"></script>
-<!--<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>-->
-<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>-->
-<script src="/js/script.js"></script>
+<script>
+	function loadScript(src) {
+		var script = document.createElement('script');
+		script.src = src;
+		script.async = false;
+		document.body.append(script);
+	}
+
+	function runScript() {
+		loadScript('/js/jquery-3.4.1.min.js');
+		loadScript('/js/script.js');
+	}
+
+	setTimeout(runScript, 1500);
+</script>
 </body>
 </html>
