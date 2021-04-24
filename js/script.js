@@ -81,3 +81,25 @@ $('.menu__close').on('click', function() {
 	$('.menu_h').removeClass('active');
 	$('body').css('overflow', 'auto');
 });
+
+$(window).on('scroll', function(){
+	var screenHeight = window.innerHeight;
+	var currentHeight = $(document).scrollTop();
+	if (currentHeight >= screenHeight) {
+		$('.to-top').fadeIn(1000);
+	} else {
+		$('.to-top').fadeOut(500);
+	}
+});
+
+$('.to-top').on('click', function () {
+	$('html').animate({scrollTop: 0}, 1000);
+});
+
+$('.to-top').on('mouseover', function() {
+	$(this).addClass('hover');
+});
+
+$('.to-top').on('mouseleave', function() {
+	$(this).removeClass('hover');
+});
