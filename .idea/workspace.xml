@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16a62f8d-4616-43dc-aefd-92129dd02dd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/theory-of-adequacy-search-for-grounds-part1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constructing-adequacy-search-for-grounds-part2/img/cod.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constructing-adequacy-search-for-grounds-part2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theory-of-adequacy-search-for-grounds-part1/img/cover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/theory-of-adequacy-search-for-grounds-part1/img/theory-of-adequacy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theory-of-adequacy-search-for-grounds-part1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/theory-of-adequacy-search-for-grounds-part1/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1onl169SKi6zCQXWE9yqEvkJU4R" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,13 +56,14 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/theory-of-adequacy-search-for-grounds-part1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/constructing-adequacy-search-for-grounds-part2" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\projects\Rusnak\public\constructing-adequacy-search-for-grounds-part2" />
       <recent name="D:\work\projects\Rusnak\public\theory-of-adequacy-search-for-grounds-part1" />
     </key>
   </component>
@@ -83,7 +90,9 @@
       <workItem from="1620892874893" duration="23589000" />
       <workItem from="1622905891957" duration="464000" />
       <workItem from="1622980986526" duration="22000" />
-      <workItem from="1624126704125" duration="5699000" />
+      <workItem from="1624126704125" duration="6501000" />
+      <workItem from="1624188547423" duration="19000" />
+      <workItem from="1625298562134" duration="3158000" />
     </task>
     <servers />
   </component>
